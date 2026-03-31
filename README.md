@@ -160,7 +160,7 @@ Since physical hardware is not used:
 
 ## 8. Use of AI
 
-AI tools were used extensively during this task to assist with understanding and implementing STM32-based firmware, as this was a new platform and development environment for me. They were particularly helpful in exploring concepts such as ADC with DMA, interrupt-driven protection logic, and HAL-based peripheral configuration.
+AI tools were used during this task to assist with understanding and implementing STM32-based firmware, as this was a new platform and development environment for me. They were particularly helpful in exploring concepts such as ADC with DMA, interrupt-driven protection logic, and HAL-based peripheral configuration.
 
 While many of the underlying concepts were familiar in theory, they had not been fully explored in practice. I used this project as an opportunity to work through the system architecture, follow the data flow, and understand how each subsystem—data acquisition, filtering, protection logic, and communication—interacts within the overall design.
 
