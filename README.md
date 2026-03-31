@@ -1,10 +1,9 @@
 # Task 02: STM32 Battery Management System (BMS) Front-End
 
-**Candidate:** Sandra Biaki Keya  
-**Target Hardware:** STM32F401RET6 (Nucleo-64)  
-**Toolchain:** STM32CubeIDE (HAL Library)
-
----
+#### Simulation Note:
+Since STM32CubeIDE does **not provide ADC simulation** in the IDE:
+- ADC values are simulated in firmware using incrementing/dummy arrays  
+- This allows testing of filtering and protection logic  
 
 ## 1. Project Overview
 
@@ -166,3 +165,8 @@ AI tools were used extensively during this task to assist with understanding and
 While many of the underlying concepts were familiar in theory, they had not been fully explored in practice. I used this project as an opportunity to work through the system architecture, follow the data flow, and understand how each subsystem—data acquisition, filtering, protection logic, and communication—interacts within the overall design.
 
 This project ultimately served as a hands-on introduction to STM32 development and embedded safety-critical system design, and I made a deliberate effort to validate and understand the implementation rather than rely on generated code alone.
+
+**Attachments**
+
+ circuit diagram showing MCU pin connections  
+ screenshot of STM32CubeIDE successful build  
